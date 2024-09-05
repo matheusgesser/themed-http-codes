@@ -10,3 +10,122 @@ body {
     color: #222;
     text-align: center;
 }
+
+strong {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+span.md {
+    font-size: 1.2rem;
+}
+
+span.sm {
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 4rem 2rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+main h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+main input {
+    height: 2rem;
+    width: 100%;
+    max-width: 14rem;
+    padding: 0 0.8rem;
+    border-radius: 0.4rem;
+    border: 1px solid #ddd;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+button#show-info {
+    padding: 0.2rem 0.4rem;
+    background: none;
+    color: #222;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-top: 0.7rem;
+}
+
+button#show-info i {
+    transition: color 150ms;
+}
+
+button#show-info:hover i {
+    color: #666;
+}
+
+button#change-theme {
+    padding: 0.2rem 0.4rem;
+    background: none;
+    color: #222;
+    border: none;
+    font-size: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background-color: #222;
+    padding: 1rem 1rem 1.6rem 1rem;
+    border-radius: 0.4rem;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+
+.card-image {
+    width: 100%;
+    background-color: #333;
+    aspect-ratio: 16 / 9;
+    border-radius: 0.2rem;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.card-info a {
+    padding: 0.2rem 0.4rem;
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
