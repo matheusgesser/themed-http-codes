@@ -102,6 +102,16 @@ const setCardImages = () => {
     });
 };
 
+const dialog = document.querySelector('#info-dialog');
+
+document.getElementById('show-info').addEventListener('click', (e) => {
+    dialog.showModal();
+});
+
+document.getElementById('close-dialog').addEventListener('click', (e) => {
+    dialog.close();
+});
+
 document.getElementById('change-theme').addEventListener('click', () => {
     const currentTheme = getTheme();
 

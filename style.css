@@ -129,3 +129,51 @@ button#change-theme {
     border: none;
     cursor: pointer;
 }
+
+#info-dialog[open] {
+    width: 100%;
+    max-width: 28rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 2rem 4rem 2rem;
+}
+
+#info-dialog::backdrop {
+    background-color: #222;
+    opacity: 0.9;
+}
+
+.dialog-header {
+    display: flex;
+    justify-content: end;
+}
+
+button#close-dialog {
+    padding: 0.2rem 0.4rem;
+    background: none;
+    color: #222;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    main {
+        padding: 4rem 6rem;
+    }
+}
+
+.rainbow {
+    animation: rainbow 3s infinite; 
+}
+
+@keyframes rainbow {
+    0% { color: purple; }
+    16.6% { color: red; }
+    33.3% { color: orange; }
+    50% { color: green; }
+    66.6% { color: deeppink; }
+    83.3% { color: dodgerblue; }
+    100% { color: purple; }
+}
