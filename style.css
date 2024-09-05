@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    /* margin: 0; */
+    font-family: "SUSE", sans-serif;
+}
+
+body {
+    background-color: #eee;
+    color: #222;
+    text-align: center;
+}
