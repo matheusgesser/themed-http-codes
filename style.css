@@ -132,7 +132,7 @@ button#change-theme {
 
 #info-dialog[open] {
     width: 100%;
-    max-width: 28rem;
+    max-width: 16rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -161,6 +161,10 @@ button#close-dialog {
 @media (min-width: 1024px) {
     main {
         padding: 4rem 6rem;
+    }
+
+    #info-dialog[open] {
+        max-width: 24rem;
     }
 }
 
